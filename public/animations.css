@@ -71,7 +71,7 @@
   }
 
   #experience1:hover::before {
-    top: 55%;
+    top: 60%;
     transition: 2s;
   }
 
@@ -92,7 +92,7 @@
   }
 
   #experience2:hover::before {
-    top: 67%;
+    top: 60%;
     transition: 2s;
   }
 
@@ -113,7 +113,7 @@
   }
 
   #experience3:hover::before {
-    top: 78%;
+    top: 60%;
     transition: 2s;
   }
 
