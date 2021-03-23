@@ -1,0 +1,263 @@
+@import url(animations.css);
+
+body {
+  margin: 0 50;
+  padding: 0;
+  background: rgb(238, 73, 93);
+  background: radial-gradient(
+    circle,
+    rgba(238, 73, 93, 1) 33%,
+    rgba(250, 50, 74, 1) 61%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h2 {
+  background-color: #ffbd4a;
+  padding: 0% 5%;
+  text-align: right !important;
+  width: 90%;
+  margin: 0 0;
+}
+
+h2::after {
+  content: "";
+  border-bottom: 5px solid #ee495d;
+  display: block;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.page {
+  background-color: #fff5e7;
+  border-radius: 20px;
+  max-width: 40%;
+  margin: 15% auto;
+  border: 10px solid #ffbd4a;
+  padding: 2% 1%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100%;
+}
+
+#firstContainer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container-profile {
+  padding-left: 5%;
+  width: 100%;
+}
+
+.profile {
+  max-width: 100%;
+  border-radius: 50%;
+  padding: 10% 0;
+}
+
+.container-details {
+  padding-left: 10%;
+}
+
+.container-details p {
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+#myName {
+  text-align: left;
+  padding-left: 5%;
+  width: 100%;
+  border-left: 5px solid #ffbd4a;
+}
+
+#myProfession {
+  width: 100%;
+  padding-left: 5%;
+  border-left: 5px solid;
+  color: #ee495d;
+}
+
+.contacts {
+  margin: 10% auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.contacts div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.column {
+  width: 100%;
+  text-align: left;
+  margin: 1%;
+  border-right: 2px solid #ee495d;
+  border-radius: 10px;
+}
+
+.sections {
+  margin-bottom: 10%;
+  padding: 5%;
+}
+
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionTitle > img {
+  width: 10%;
+  padding-bottom: 1%;
+}
+
+#graduate {
+  text-align: center;
+}
+
+#experience h4 {
+  color: #ee495d;
+}
+
+.date {
+  font-weight: bold;
+}
+
+/*Media Queries*/
+
+@media all and (max-width: 1690px) {
+  .page {
+    max-width: 55%;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .page {
+    max-width: 60%;
+  }
+}
+
+@media all and (max-width: 980px) {
+  * {
+    font-size: 100%;
+  }
+  .page {
+    min-width: 65%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+  .profile {
+    padding: 10% 10% 5% 5%;
+  }
+}
+@media all and (max-width: 736px) {
+  * {
+    font-size: 98%;
+  }
+  .container-details {
+    padding-left: 10%;
+  }
+}
+
+@media all and (max-width: 565px) {
+  * {
+    font-size: 95%;
+  }
+  .container-details {
+    padding-left: 5%;
+  }
+  .container-profile {
+    padding-left: 3%;
+  }
+  .profile {
+    width: 70%;
+    padding: 10% 10% 5% 15%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  * {
+    font-size: 93%;
+  }
+
+  .page {
+    min-width: 80%;
+    padding: 0;
+  }
+
+  ul {
+    padding-left: 20%;
+  }
+
+  .container-details {
+    padding: 5%;
+  }
+
+  .profile {
+    width: 60%;
+    padding: 15%;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .page {
+    min-width: 90%;
+    padding: 0;
+  }
+
+  ul {
+    padding-left: 15%;
+  }
+
+  .container-details {
+    padding-left: 5%;
+  }
+
+  #myName {
+    padding-left: 3px;
+    font-size: 150%;
+  }
+
+  #myProfession {
+    padding-left: 3px;
+    font-size: 70%;
+  }
+
+  .container-profile {
+    padding-left: 5%;
+  }
+
+  .profile {
+    max-width: 70%;
+    padding: 15%;
+  }
+}
+
+@media all and (max-width: 330px) {
+  .profile {
+    max-width: 70%;
+    padding: 20%;
+  }
+
+  .contacts {
+    font-size: 70%;
+    display: block;
+  }
+}

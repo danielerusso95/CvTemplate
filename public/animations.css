@@ -1,0 +1,189 @@
+/*Animation*/
+
+.experience:hover {
+  font-size: 120%;
+  background-color: rgba(255, 189, 74, 0.432);
+  border-radius: 10px;
+  transition: 1s;
+}
+
+#achievements h3:hover {
+  font-size: 150%;
+  background-color: rgba(255, 189, 74, 0.432);
+  border-radius: 10px;
+  transition: 1s;
+}
+
+#graduateTitle:hover {
+  font-size: 120%;
+  background-color: rgba(255, 189, 74, 0.432);
+  border-radius: 10px;
+  transition: 1s;
+}
+
+#digitalSkills li:hover {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+#skills li:hover {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+@media only screen and (min-width: 1036px) {
+  #graduateTitle::before {
+    content: "Thanks to it I took the first steps towards my passion!";
+    background-color: white;
+    display: hidden;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    right: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+    border: 2px solid black;
+  }
+
+  #graduateTitle:hover::before {
+    display: block;
+    right: 80%;
+    transition: 2s;
+  }
+
+  #experience1::before {
+    content: "My first real job: it taught me sacrifice, and what work was";
+    background-color: white;
+    display: hidden;
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    left: 200%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+    border: 2px solid black;
+  }
+
+  #experience1:hover::before {
+    display: block;
+    left: 80%;
+    transition: 2s;
+  }
+
+  #experience2::before {
+    content: "My latest job, my best skill, my second passion";
+    background-color: white;
+    display: hidden;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    left: 200%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+    border: 2px solid black;
+  }
+
+  #experience2:hover::before {
+    display: block;
+    left: 80%;
+    transition: 2s;
+  }
+
+  #experience3::before {
+    content: "My way to what I am now, very rich in experiences";
+    background-color: white;
+    display: hidden;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    left: 200%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+    border: 2px solid black;
+  }
+
+  #experience3:hover::before {
+    display: block;
+    left: 80%;
+    transition: 2s;
+  }
+  #bartender::before {
+    content: "5 years between study and practice";
+    background-color: white;
+    display: hidden;
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+    border: 2px solid black;
+  }
+
+  #bartender:hover::before {
+    display: block;
+    right: 80%;
+    transition: 2s;
+  }
+  #karate::before {
+    content: "10 years of training between 2005 and 2015";
+    background-color: white;
+    display: hidden;
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    right: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+    border: 2px solid black;
+  }
+
+  #karate:hover::before {
+    display: block;
+    right: 80%;
+    transition: 2s;
+  }
+
+  #travel::before {
+    content: "The best experience of my life";
+    background-color: white;
+    display: hidden;
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    right: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+    border: 2px solid black;
+  }
+
+  #travel:hover::before {
+    display: block;
+    right: 80%;
+    transition: 2s;
+  }
+}
