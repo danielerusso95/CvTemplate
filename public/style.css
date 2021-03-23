@@ -1,8 +1,14 @@
 @import url(animations.css);
 
-body {
-  margin: 0 50;
+html {
+  margin: 0;
   padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
   background: rgb(238, 73, 93);
   background: radial-gradient(
     circle,
@@ -35,7 +41,7 @@ h2::after {
   background-color: #fff5e7;
   border-radius: 20px;
   max-width: 40%;
-  margin: 15% auto;
+  margin: 10% auto;
   border: 10px solid #ffbd4a;
   padding: 2% 1%;
 }

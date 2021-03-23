@@ -31,7 +31,7 @@
   font-size: 120%;
 }
 
-@media only screen and (min-width: 1036px) {
+@media only screen and (min-width: 1025px) {
   #graduateTitle::before {
     content: "Thanks to it I took the first steps towards my passion!";
     background-color: white;
@@ -57,11 +57,11 @@
   #experience1::before {
     content: "My first real job: it taught me sacrifice, and what work was";
     background-color: white;
-    display: hidden;
     position: absolute;
     width: 150px;
     height: 120px;
-    left: 200%;
+    top: -200%;
+    left: 80%;
     border-radius: 20px;
     padding: 10px;
     font-size: 20px;
@@ -71,19 +71,18 @@
   }
 
   #experience1:hover::before {
-    display: block;
-    left: 80%;
+    top: 55%;
     transition: 2s;
   }
 
   #experience2::before {
     content: "My latest job, my best skill, my second passion";
     background-color: white;
-    display: hidden;
     position: absolute;
     width: 150px;
     height: 100px;
-    left: 200%;
+    top: -200%;
+    left: 80%;
     border-radius: 20px;
     padding: 10px;
     font-size: 20px;
@@ -93,19 +92,18 @@
   }
 
   #experience2:hover::before {
-    display: block;
-    left: 80%;
+    top: 67%;
     transition: 2s;
   }
 
   #experience3::before {
     content: "My way to what I am now, very rich in experiences";
     background-color: white;
-    display: hidden;
     position: absolute;
     width: 150px;
     height: 100px;
-    left: 200%;
+    top: -200%;
+    left: 80%;
     border-radius: 20px;
     padding: 10px;
     font-size: 20px;
@@ -115,10 +113,10 @@
   }
 
   #experience3:hover::before {
-    display: block;
-    left: 80%;
+    top: 78%;
     transition: 2s;
   }
+
   #bartender::before {
     content: "5 years between study and practice";
     background-color: white;
