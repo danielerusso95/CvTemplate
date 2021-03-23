@@ -1,6 +1,7 @@
 /*Animation*/
 
 .experience:hover {
+  position: relative;
   font-size: 120%;
   background-color: rgba(255, 189, 74, 0.432);
   border-radius: 10px;
@@ -66,12 +67,12 @@
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
-    transition: 1s;
+    transition: 5s;
     border: 2px solid black;
   }
 
   #experience1:hover::before {
-    top: 60%;
+    top: 70%;
     transition: 2s;
   }
 
@@ -87,12 +88,12 @@
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
-    transition: 1s;
+    transition: 5s;
     border: 2px solid black;
   }
 
   #experience2:hover::before {
-    top: 60%;
+    top: 70%;
     transition: 2s;
   }
 
@@ -108,12 +109,12 @@
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
-    transition: 1s;
+    transition: 5s;
     border: 2px solid black;
   }
 
   #experience3:hover::before {
-    top: 60%;
+    top: 70%;
     transition: 2s;
   }
 
